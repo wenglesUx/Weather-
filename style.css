@@ -1,0 +1,108 @@
+body{
+    
+    display: flex;
+    text-align: center;
+   justify-content: center;
+   overflow: hidden;
+
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+   
+}
+.imgg{
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.chuva{
+    
+  
+    background: url(https://media.giphy.com/media/vHsee3nXR8qM8/giphy.gif);
+    background-size: cover;
+    display: none;
+
+   
+}
+.sol{
+   
+
+    background: url(https://media.giphy.com/media/xT0wlvGLHmojbeu5vq/giphy.gif);
+    background-size: cover;
+    display: none;
+ }
+.box{
+    margin-top: 100px;
+    padding: 50px;
+    width:500px;
+    height:500px;
+    box-shadow:  0px  0px 7px 3px darkblue;
+    background-color: aliceblue;
+    overflow: hidden;
+    z-index: 9999;
+
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2, p {
+    padding: -50px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+    width: 400px;
+}
+.button{
+    width:100vw;
+    height: 50px;
+    border-radius:  5px;
+    margin-top: 10px;
+   
+    
+}
+.inputvalue{
+    width: 300px;
+    height:50px;
+    text-align: center;
+    display: none;
+}
+
+.ct{
+    
+text-transform: uppercase;
+}
+.temp{
+margin-top: -20px;
+font-size: 100px;
+border: solid 1px black;
+border-radius: 15px;
+height: 200px;
+width:230px;
+color:black;
+z-index: 9999;
+
+
+}
+.backtemp{
+    background-color: orangered;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+
+}
+.descc{
+margin-top: -20px;
+}
+
+.main{
+
+}
+
+
